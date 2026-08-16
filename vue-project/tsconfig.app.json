@@ -1,0 +1,41 @@
+{
+    "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+    "exclude": ["src/**/__tests__/*"],
+    "compilerOptions": {
+        "composite": true,
+        "baseUrl": ".",
+        "paths": {
+        "@/*": ["./src/*"],
+        "@css/*": ["./src/assets/css/*"],
+        "@img/*": ["./src/assets/images/*"]
+        },
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "substitutions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "skipLibCheck": true,
+        "strict": true,
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        "allowJs": true
+    }
+}
+// {
+//     "extends": "@vue/tsconfig/config/app.json",
+//     "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+//     "exclude": ["src/**/__tests__/*"],
+//     "compilerOptions": {
+//       "composite": true,
+//       "baseUrl": ".",
+//       "paths": {
+//         "@/*": ["./src/*"],
+//         "@css/*": ["./src/assets/css/*"],
+//       "@img/*": ["./src/assets/images/*"]
+//       }
+//     }
+//   }
