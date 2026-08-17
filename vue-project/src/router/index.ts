@@ -26,7 +26,7 @@ for (const path in modules) {
 }
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [...defaultRoutes, ...moduleRoutes],
 })
 
