@@ -8,6 +8,12 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 export default defineConfig({
   base: './',
   plugins: [vue(), vueDevTools()],
+  server: {
+    hmr: {
+      host: 'localhost',
+      protocol: 'ws',
+    },
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
