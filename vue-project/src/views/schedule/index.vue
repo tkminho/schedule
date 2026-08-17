@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const today = ref<Date>(new Date());
+</script>
 
 <template>
-  <h1>스케줄</h1>
+  {{ today }}
 </template>
 
 <style lang="scss" scoped></style>
