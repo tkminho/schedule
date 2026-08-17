@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./index-DslWPbSk.js";var r={};function i(n,r){return t(),e(`h1`,null,`스케줄`)}var a=n(r,[[`render`,i]]);export{a as default};
