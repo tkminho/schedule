@@ -1,1 +1,0 @@
-import{i as e,n as t,t as n}from"./index-BQ6I7KI4.js";var r={};function i(n,r){return e(),t(`h1`,null,`Home`)}var a=n(r,[[`render`,i]]);export{a as default};

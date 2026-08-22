@@ -1,1 +1,0 @@
-import{a as e,o as t,r as n}from"./index-BQ6I7KI4.js";var r=n({__name:`index`,setup(n){let r=e(new Date),i=e(r.value.getFullYear()),a=e(r.value.getMonth()+1),o=e(r.value.getDate());return(e,n)=>t(i.value)+`.`+t(a.value)+`.`+t(o.value)}});export{r as default};
